@@ -16,5 +16,8 @@
 ## Инструкция по запуску
 1. Клонировать репозиторий:
 ```bash
-git clone https://github.com/yourusername/weather-bot.git
+git clone https://github.com/Ytochkin/weather-bot.git
 cd weather-bot
+
+2. Установить зависимости:
+
