@@ -1,5 +1,3 @@
-# WeatherBot
-
 # WeatherBot - Telegram бот для прогноза погоды
 
 ## Участники
