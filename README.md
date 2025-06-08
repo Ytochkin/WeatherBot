@@ -16,7 +16,7 @@
 ## Инструкция по запуску
 1. Клонировать репозиторий:
 ```bash
-git clone https://github.com/Ytochkin/weather-bot.git
+git clone https://github.com/Ytochkin/WeatherBot.git
 cd weather-bot
 ```
 
