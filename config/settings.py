@@ -1,0 +1,6 @@
+settings = {
+    "BOT_TOKEN": "YOUR_BOT_TOKEN",
+    "WEATHER_API_KEY": "YOUR_OPENWEATHER_API_KEY",
+    "ADMIN_IDS": [YOUR_ADMIN_ID],
+    "CACHE_TTL": 600
+}
