@@ -18,6 +18,41 @@
 ```bash
 git clone https://github.com/Ytochkin/weather-bot.git
 cd weather-bot
+```
 
 2. Установить зависимости:
+```bash
+pip install -r requirements.txt
+```
+
+3. Создать файл настроек:
+```bash
+cp config/settings.example.py config/settings.py
+```
+
+4. Получить API ключи:
+- Токен бота: @BotFather
+- Ключ OpenWeatherMap: https://openweathermap.org/api
+
+5. Заполнить настройки в config/settings.py:
+```bash
+settings = {
+    "BOT_TOKEN": "ваш_токен_бота",
+    "WEATHER_API_KEY": "ваш_ключ_openweathermap",
+    "ADMIN_IDS": [ваш_id_телеграм],
+    "CACHE_TTL": 600
+}
+```
+
+6. Запустить бота:
+```bash
+python bot.py
+```
+
+## Используемые технологии
+- Python 3.10+
+- Aiogram 3.x
+- OpenWeatherMap API
+- Cachetools для кэширования запросов
+   
 
