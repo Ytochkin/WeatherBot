@@ -17,7 +17,7 @@
 1. Клонировать репозиторий:
 ```bash
 git clone https://github.com/Ytochkin/WeatherBot.git
-cd weather-bot
+cd WeatherBot
 ```
 
 2. Установить зависимости:
